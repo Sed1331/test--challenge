@@ -6,7 +6,11 @@ class ElementsPage {
   }
 
   get webTables() {
-    return cy.get("#item-3");
+    return cy.get(".menu-list > #item-3");
+  }
+
+  get brokenLinks() {
+    return cy.get(".menu-list > #item-6");
   }
 
   get addItem() {
@@ -43,6 +47,10 @@ class ElementsPage {
 
   get submitBtn() {
     return cy.get("#submit");
+  }
+
+  get editRow() {
+    return cy.get("#edit-record-1");
   }
 }
 export default new ElementsPage();
