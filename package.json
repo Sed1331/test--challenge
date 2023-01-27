@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Sed1331/test--challenge#readme",
   "devDependencies": {
-    "cypress": "^12.4.0"
+    "cypress": "^12.4.0",
+    "cypress-file-upload": "^5.0.8"
   }
 }
