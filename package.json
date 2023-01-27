@@ -1,0 +1,22 @@
+{
+  "name": "gerimedica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sed1331/test--challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sed1331/test--challenge/issues"
+  },
+  "homepage": "https://github.com/Sed1331/test--challenge#readme",
+  "devDependencies": {
+    "cypress": "^12.4.0"
+  }
+}
