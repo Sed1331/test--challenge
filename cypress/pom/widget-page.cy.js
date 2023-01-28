@@ -14,7 +14,7 @@ class WidgetPage {
   }
 
   get progressBar() {
-    return cy.get("#progressBar");
+    return cy.get('[role="progressbar"]');
   }
 
   get toolTipBtn() {
